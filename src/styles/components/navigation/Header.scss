@@ -1,0 +1,51 @@
+$mainBlue: #0d2035;
+$blue: #182c44;
+
+.nav-container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $mainBlue;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+
+  .left {
+    .nav-item {
+      margin: 1rem 2rem;
+      padding: 0.5rem 0;
+
+      a {
+        color: white;
+        margin: 1rem 0;
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+      }
+    }
+    .nav-item:hover {
+      background-color: $blue;
+    }
+  }
+
+  .right {
+    display: flex;
+    margin-right: 2rem;
+    .nav-item {
+      margin: 1rem 0;
+      padding: 0.5rem 0;
+
+      a {
+        color: white;
+        margin: 1rem 0;
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+      }
+    }
+    .nav-item:hover {
+      background-color: #182c44;
+    }
+  }
+}

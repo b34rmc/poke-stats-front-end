@@ -1,0 +1,9 @@
+.all-pokemon {
+  width: 90%;
+  margin: 0 auto 2rem auto;
+  height: 83%;
+  overflow-y: scroll;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
